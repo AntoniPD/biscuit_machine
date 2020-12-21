@@ -1,0 +1,37 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #d4a17e;
+  border-radius: 4px 4px 0 0;
+  height: 100px;
+  width: 100%;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.actionButton {
+  background: #d4a17e;
+  border-radius: 4px 4px 0 0;
+}
+
+.cookiesInfo {
+  margin-right: 5%;
+}
+
+.statusIcon {
+  margin-right: 5%;
+}

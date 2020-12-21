@@ -1,0 +1,23 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1d;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  background: #ce9f04;
+  border-radius: 8px;
+  height: 60%;
+  width: 55%;
+}
