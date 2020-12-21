@@ -6,4 +6,4 @@ Client folder is utilizing create-react-ap and socket.io-client. You must use `n
 
 ## Server
 
-To run the server, you will need to use npm start.
+To run the server, you will need to use `npm start`.
