@@ -1,11 +1,11 @@
 const Enum = require('enum');
 const ovenStates = new Enum({ "INITIAL": 0, "READY": 1, "PREPARING": 2, "STOPPED": 3 });
 
-const MIN_OVEN_TEMP = 20;
+const MIN_OVEN_TEMP = 220;
 const HEATING_OVEN_STEP = 5;
 const KEEP_OVEN_TEMP = MIN_OVEN_TEMP - 5;
 const COOL_DOWN_OVEN_STEP = 2;
-const MAX_OVEN_TEMP = 40;
+const MAX_OVEN_TEMP = 240;
 
 class Oven {
     constructor(emitter) {
@@ -36,7 +36,7 @@ class Oven {
             if (this.temperature >= MIN_OVEN_TEMP) {
                 this.isHeating = false
             }
-        }, 1000);
+        }, 500);
     }
 
     normaliseTemp() {
